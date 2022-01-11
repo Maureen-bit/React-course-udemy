@@ -2,7 +2,7 @@
 import React from 'react';
 
 const PrimeraApp = () => {
-    return <h1>Hola Maureen!</h1>;
+    return <h1>Hola Maureen y candy!</h1>;
 };
 
 export default PrimeraApp;
