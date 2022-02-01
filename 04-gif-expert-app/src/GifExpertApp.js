@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import { AddCategory } from "./components/AddCategory.js";
 import { GifGrid } from "./components/GifGrid.js";
 
-const GifExpertApp = () => {
-    const [categories, setCategories] = useState(['One Puch']);
+const GifExpertApp = ({ defaultCategories = [] }) => {
+    /* Enviamos como argumento una categoría por defecto para poder probar en el test ya que
+    no hay manera de poner un state en las pruebas ya que cada estado no tiene un identificador*/
+    const [categories, setCategories] = useState(defaultCategories);
     
     return(
         <>

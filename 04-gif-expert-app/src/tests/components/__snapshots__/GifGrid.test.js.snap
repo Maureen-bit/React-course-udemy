@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas unitarias componente <GifGrid /> Debe de mostrar el componente correctamente 1`] = `
+<Fragment>
+  <h3>
+    Heidi
+  </h3>
+  <p>
+    Loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Pruebas unitarias componente <GifGrid /> Debe de mostrar items cuando se cargan imagenes después de useFetchGifs 1`] = `
+<Fragment>
+  <h3>
+    Heidi
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC123"
+      key="ABC123"
+      title="The Simpsons Family"
+      url="https://www.giftestthasimpsonsfamily.com"
+    />
+  </div>
+</Fragment>
+`;

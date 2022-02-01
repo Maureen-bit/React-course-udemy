@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas unitarias componente <GifGridItem /> Debe de mostrar el componente correctamente 1`] = `
+<div
+  className="card animate__animated animate__heartBeat"
+>
+  <img
+    alt="Gif One"
+    src="www.gifone.com"
+  />
+  <p>
+    Gif One
+  </p>
+</div>
+`;
