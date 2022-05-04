@@ -10,7 +10,7 @@ export const MultipleCustomHooks = () => {
  
     return (
         <>
-            <h1> Breaking bad </h1>
+            <h2> Breaking bad </h2>
             <hr />
 
             {loading  ? 

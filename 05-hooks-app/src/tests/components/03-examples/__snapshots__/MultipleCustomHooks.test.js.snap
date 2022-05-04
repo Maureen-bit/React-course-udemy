@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Multiple custom hooks tests should render correctly 1`] = `
+<Fragment>
+  <h1>
+     Breaking bad 
+  </h1>
+  <hr />
+  <div
+    className="alert alert-info text-center"
+  >
+    Loading...
+  </div>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Siguiente quote!
+  </button>
+</Fragment>
+`;

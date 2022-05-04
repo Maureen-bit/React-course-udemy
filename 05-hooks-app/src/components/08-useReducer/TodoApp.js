@@ -12,7 +12,6 @@ export const TodoApp = () => {
     };
 
     const [ todos, dispatch ] = useReducer(todoReducer, [], init);
-    console.log("🚀 ~ file: TodoApp.js ~ line 14 ~ TodoApp ~ todos", todos)
     /* en destructuración de arreglos se puede cambiar el nombre de las variables ya que el resultado
     es posicionado, es decir, state es posición cero asi se llame todos.
     DISPATCH: función que recibe una action para ejecutar  y enviar la información al reducer específico que 

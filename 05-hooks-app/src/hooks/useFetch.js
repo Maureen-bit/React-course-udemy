@@ -34,6 +34,13 @@ export const useFetch = ( url ) => {
                 console.log("SetState no se llamó")
             }
         })
+        .catch(() => {
+            setState({
+                data: null,
+                loading: false,
+                error: "No se pudo cargar la información!"
+            })
+        })
     }, [url]);
 
     return state;
